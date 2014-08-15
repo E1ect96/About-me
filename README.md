@@ -3,7 +3,7 @@
 
 HTML5 One Page Template. Responsive. Built using Grunt, CoffeeScript and SCSS.
 ***
-[Visit Demo Site](http://owldesign.github.io/3.-Lithium/)
+[Visit Demo Site](http://owl-design.net/demos/lithium/)
 
 Github won't allow php files to run, so the subscribe form will not work unless you drop it on your own server.
 ***
@@ -33,3 +33,6 @@ This site was designed by [Vlad Musienko](http://vlad-production.ru/) @vladprodu
 #### Todo's
 ***
 * Make content pages for each work piece. Each content page will have 3-5 images slider of the project and more info with relevant links.
+
+### Licence
+Use how you want. You can use it for commercial purposes just don't try to sell it as is.
