@@ -4,6 +4,10 @@
 HTML5 One Page Template. Responsive. Built using Grunt, CoffeeScript and SCSS.
 ***
 [Visit Demo Site](http://owl-design.net/demos/lithium/)
+***
+This template is part of The Periodic Table of Web Templates
+[Visit PTWT](http://owl-design.net/ptwt/)
+***
 
 Github won't allow php files to run, so the subscribe form will not work unless you drop it on your own server.
 ***
