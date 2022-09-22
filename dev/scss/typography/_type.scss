@@ -17,13 +17,14 @@ $segoeRegular: segoeui, Arial, sans-serif;
 $segoeBold: segoeuib, Arial, sans-serif;
 
 // Headers
-$headers: 
+$headers:
   (h-01, 80px, $baseLineHeight, $segoeBold),
   (h-02, 19px, $baseLineHeight, $segoeRegular),
   (h-03, 18px, $baseLineHeight, $segoeBold);
 
 .heading {
   color: $textColor;
+  transition: .3s;
   @include antialias;
   @each $header, $fontSize, $lineHeight, $fontName in $headers {
     &.#{$header} {
@@ -41,7 +42,7 @@ $headers:
 }
 
 // Copy
-$copies: 
+$copies:
   (copy-01, 30px, $baseLineHeight, $segoeRegular),
   (copy-02, 18px, $baseLineHeight, $segoeRegular),
   (copy-03, 14px, $baseLineHeight, $segoeRegular);

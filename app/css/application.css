@@ -51,6 +51,7 @@ a {
 }
 .heading {
   color: #464b4f;
+  transition: .3s;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
@@ -227,7 +228,6 @@ a {
   from {
     -webkit-transform: scale(1);
   }
-
   to {
     -webkit-transform: scale(50);
   }
@@ -236,7 +236,6 @@ a {
   from {
     -moz-transform: scale(1);
   }
-
   to {
     -moz-transform: scale(50);
   }
@@ -249,7 +248,6 @@ a {
     -o-transform: scale(1);
     transform: scale(1);
   }
-
   to {
     -webkit-transform: scale(50);
     -moz-transform: scale(50);
@@ -262,7 +260,6 @@ a {
   from {
     -webkit-transform: translateY(10px);
   }
-
   to {
     -webkit-transform: translateY(0);
   }
@@ -271,7 +268,6 @@ a {
   from {
     -moz-transform: translateY(10px);
   }
-
   to {
     -moz-transform: translateY(0);
   }
@@ -284,7 +280,6 @@ a {
     -o-transform: translateY(10px);
     transform: translateY(10px);
   }
-
   to {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -321,13 +316,13 @@ a {
   -o-align-items: stretch;
   align-items: stretch;
   -ms-flex-align: stretch;
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  box-orient: horizontal;
-  -webkit-flex-direction: row;
-  -moz-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-direction: row;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-direction: column;
   -webkit-box-pack: start;
   -moz-box-pack: start;
   box-pack: start;
@@ -346,12 +341,19 @@ a {
   -moz-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  width: 285px;
   float: left;
   margin-right: 20px;
+  margin-bottom: 25px;
 }
 #page-about aside:last-child {
   margin: 0;
+}
+#page-about .courses h3 {
+  width: fit-content;
+}
+#page-about .courses h3:hover {
+  color: #818baa;
+  transition: 0.3s;
 }
 
 #page-work {
@@ -593,11 +595,14 @@ a {
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-#page-footer .social-links #icon-twitter:hover * {
-  fill: #00b0f0;
+#page-footer .social-links svg #Path-3 {
+  fill: #ffffff;
 }
-#page-footer .social-links #icon-dribbble:hover * {
-  fill: #ec518a;
+#page-footer .social-links #icon-github:hover * {
+  fill: #000000;
+}
+#page-footer .social-links #icon-telegram:hover #Oval {
+  fill: #2AABEE;
 }
 #page-footer .social-links #icon-behance:hover * {
   fill: #0095ff;
@@ -796,5 +801,7 @@ a {
   }
 }
 body {
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
+/*# sourceMappingURL=application.css.map */
